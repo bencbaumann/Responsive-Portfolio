@@ -1,25 +1,32 @@
 @media screen and (max-width: 768px) {
-    header, #wrapper {
-        width: 95%;
-    }
-    #content {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    #sidebar {
-        width: 100%;
-        position: static;
-        clear: both;
-        padding-bottom: 0px;
-    }
-    #sidebar ul {
-        width: 33%;
-        display: flex;
-    }
-    #content img{
-        width: 50%;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-
+  header,
+  #wrapper {
+    width: 95%;
+  }
+  #content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #sidebar {
+    width: 100%;
+    position: static;
+    clear: both;
+    padding-bottom: 0px;
+  }
+  #sidebar ul {
+    width: 33%;
+    display: flex;
+  }
+  #content img {
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  /* Portfolio Page */
+  .mini-card {
+    width: 47%;
+  }
+  .mini-card:nth-child(even) {
+    float: right;
+  }
 }
