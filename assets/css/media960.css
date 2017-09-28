@@ -1,0 +1,29 @@
+@media screen and (max-width: 960px) {
+    header {
+        width: 80%;
+    }
+    #wrapper {
+        width: 80%;
+    }
+    #content {
+        margin: 0%;
+        width: 55%;
+    }
+    #sidebar {
+        width: 35%;
+    }
+    
+
+
+
+
+
+
+
+
+
+    /*    DELETE THIS      */
+    footer{
+        background: orange;
+    }
+}

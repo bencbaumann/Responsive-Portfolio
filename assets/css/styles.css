@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: lightgreen;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+#banner {
+  background: yellow;
+  width: 100%;
+  position:fixed;
+  top:0px;
+  z-index:5;
+}
+header {
+    position: relative;
+  height: 80px;
+  width: 960px;
+  margin: auto;
+  background: orchid;
+}
+#logo {
+  padding: 0px 20px;
+  font-size: 2em;
+  height: 80px;
+  background: orange;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+nav {
+  height: 80px;
+  background: red;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  float: right;
+  text-align: right;
+}
+nav li {
+  display: inline;
+}
+.divider {
+  padding: 0px 10px;
+}
+.inner {
+  padding: 20px;
+}
+#wrapper {
+  background: lightblue;
+  width: 960px;
+  border: solid 1px green;
+  padding: 20px 0px;
+  height: 100%;
+  margin: 100px auto 100px auto;
+}
+#content {
+  padding: 0px;
+  float: left;
+  border: solid 1px teal;
+  width: 65%;
+  background: beige;
+}
+#sidebar {
+  /* float: right; */
+  right: 0px;
+  width: 30%;
+  border: solid 1px teal;
+  height: 100px;
+  background: lime;
+  /* position: fixed; */
+  top: 100px;
+  position: absolute;
+}
+footer {
+  text-align: center;
+  /* background:pink; */
+  width: 100%;
+  height: 100px;
+  border: solid 1px teal;
+  position: fixed;
+  bottom: 0px;
+}
+.innerfooter {
+  background: lightslategray;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  vertical-align: center;
+  width: 100%;
+}
+.clearfix {
+    clear:both;
+}
