@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-  background: url('../images/background.png');
+  background: url("../images/background.png");
 }
 h1 {
   font-size: 2em;
@@ -11,10 +11,11 @@ h2 {
 }
 #banner {
   background: #ffffff;
+  border-bottom: solid 1px #333;
   width: 100%;
-  position:fixed;
-  top:0px;
-  z-index:5;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
 }
 header {
   position: relative;
@@ -62,6 +63,8 @@ nav li {
   float: left;
   width: 65%;
   background: #ffffff;
+  margin-bottom:140px;
+  box-shadow: 10px 10px 5px #222;
 }
 #sidebar {
   background: #ffffff;
@@ -70,33 +73,34 @@ nav li {
   border: solid 1px 4aaaa5;
   top: 120px;
   position: absolute;
-  padding-bottom:20px;
-  z-index:1;
+  padding-bottom: 20px;
+  z-index: 1;
+  box-shadow: 10px 10px 5px #222;
 }
-#sidebar ul{
+#sidebar ul {
   /* border: solid 1px orange; */
 }
-#sidebar li{
+#sidebar li {
   /* border: solid 1px teal; */
 }
-#sidebar li a img{
+#sidebar li a img {
   /* border: solid 1px teal; */
   width: 100%;
 }
 .col-third {
   width: 30%;
-  float:left;
+  float: left;
   margin-right: 5%;
 }
 .col-third:last-child {
   width: 30%;
-  float:left;
+  float: left;
   margin-right: 0%;
 }
 footer {
   /* background: lightslategray; */
   background: #333;
-  color:#ffffff;
+  color: #ffffff;
   text-align: center;
   /* background:pink; */
   width: 100%;
@@ -104,7 +108,7 @@ footer {
   border-top: solid 10px teal;
   position: fixed;
   bottom: 0px;
-  z-index:2;
+  z-index: 2;
 }
 .innerfooter {
   height: 100px;
@@ -116,5 +120,5 @@ footer p {
   width: 100%;
 }
 .clearfix {
-    clear:both;
+  clear: both;
 }

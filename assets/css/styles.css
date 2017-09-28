@@ -1,13 +1,44 @@
+nav a {
+  text-decoration: none;
+  color: #666;
+}
+h2,
+h3 {
+  color: #4aaaa5;
+}
 p,
 a,
 label {
   font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
-#content img{
-    float:left;
-    margin-right: 20px;
+#content img {
+  float: left;
+  margin-right: 20px;
 }
-#content p{
-    margin-bottom: 20px;
+#content p {
+  margin-bottom: 20px;
+}
+
+/* Form Stuff */
+
+input,
+textarea {
+  border: solid 1px #ccc;
+  width: 95%;
+  margin: 5px 0px 15px 0px;
+  padding: 10px 2.5%;
+}
+button {
+  padding: 10px 30px;
+  background: #4aaaa5;
+  color: #fff;
+  border: none;
+}
+button:hover {
+  background: #333;
+}
+button:focus {
+  background: #ccc;
+  color: #000;
 }
