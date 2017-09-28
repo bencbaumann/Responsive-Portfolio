@@ -75,7 +75,7 @@ nav li {
   height: 100px;
   background: lime;
   /* position: fixed; */
-  top: 100px;
+  top: 120px;
   position: absolute;
 }
 footer {
