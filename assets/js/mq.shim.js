@@ -10,9 +10,9 @@ var mediaQuery = ()=>{
         const doc = document;
         const sidebar = doc.getElementById('sidebar');
         sidebar.remove();
-        const contentEnd = doc.getElementById('contentEnd');
-        const content = doc.getElementById('content');
-        content.insertBefore(sidebar, contentEnd);
+        const clearfix = doc.getElementById('clearfix');
+        const wrapper = doc.getElementById('wrapper');
+        wrapper.insertBefore(sidebar, clearfix);
     }
     else {
         const doc = document;
