@@ -25,6 +25,11 @@
         width: 100%;
         position: static;
     }
+    #content img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
 
 
 
