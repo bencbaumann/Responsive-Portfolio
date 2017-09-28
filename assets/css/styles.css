@@ -10,31 +10,30 @@ h2 {
   font-size: 1.5em;
 }
 #banner {
-  background: yellow;
+  background: #ffffff;
   width: 100%;
   position:fixed;
   top:0px;
   z-index:5;
 }
 header {
-    position: relative;
+  position: relative;
   height: 80px;
   width: 960px;
   margin: auto;
-  background: orchid;
 }
 #logo {
   padding: 0px 20px;
   font-size: 2em;
   height: 80px;
-  background: orange;
+  background: #4aaaa5;
+  color: white;
   float: left;
   display: flex;
   align-items: center;
 }
 nav {
   height: 80px;
-  background: red;
   float: right;
   display: flex;
   align-items: center;
